@@ -1,0 +1,92 @@
+.sighin-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-image: url('../../../../public//images//img-home.jpg');
+}
+
+
+.sighin-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 50px 50px 50px;
+    background-color: white;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.sighin-form-header{
+    font-size: 22px;
+    font-weight: 600;
+    color: #5255fa;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 450px) {
+    .sighin-form-header{
+        font-size: 18px;
+    }
+}
+
+label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+    border-radius: 5px;
+}
+@media screen and (max-width: 450px) {
+    label{
+        font-size: 15px;
+    }
+}
+
+.input--sighin-form{
+    width: 450px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: #e0dedee0;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    margin: 10px 0 20px 0 ;
+}
+
+@media screen and (max-width: 760px) {
+    .input--sighin-form{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .input--sighin-form{
+        width: 200px;
+    }
+}
+
+.button-sighin-form{
+    width: 450px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(82,85,250);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+@media screen and (max-width: 760px) {
+    .button-sighin-form{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .button-sighin-form{
+        width: 200px;
+    }
+}

@@ -1,0 +1,81 @@
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-image: url('../../../../public//images//img-home.jpg');
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        height: 550px;
+    }
+}
+
+.login-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 50px 50px 50px;
+    background-color: white;
+    height: 70%;
+    border-radius: 5px;
+}
+@media screen and (max-width: 450px) {
+    .login-form-wrapper{
+        height: 80%;
+    }
+}
+
+.logout-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-social-logo{
+    display: inline-block;
+    font-size: 65px;
+    font-weight: 900;
+    background-image: linear-gradient(90deg, rgba(250,147,82,1) 47%, rgba(152,47,250,1) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    cursor: text;
+}
+@media screen and (max-width: 760px) {
+    .logout-social-logo{
+        font-size: 45px;
+    }
+}
+
+.logout-social-logo > i{
+    font-size: 65px;
+    background-image: linear-gradient(90deg, rgba(250,147,82,1) 47%, rgba(152,47,250,1) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+}
+
+.button-sighout-form{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.button-sighout-form:hover{
+    background-color: white;
+    color: black;
+}
